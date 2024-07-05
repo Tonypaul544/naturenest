@@ -235,6 +235,7 @@ header {
   width: 600px;
   height: fit-content;
   padding: 20px 0;
+  padding-bottom: 30px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -295,7 +296,8 @@ button {
 
 .have-account {
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 16px;
+  margin-bottom: 70px;
 }
 
 .account-span{
@@ -488,6 +490,11 @@ span .account-span {
     backdrop-filter: unset;
   }
 
+  .account-span{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+  }
 
 
 
@@ -504,11 +511,11 @@ span .account-span {
   }
 
   .login-form {
-    height: 60%;
+    height: 63%;
   }
 
   .login-option {
-    margin-bottom: 45px;
+    margin-bottom: 55px;
   }
 
 }
