@@ -421,7 +421,6 @@ footer {
   background-image: url(./images/footer.png);
   padding: 20px 100px;
   background-color: var(--background-green);
-  z-index: ;
 }
 
 .footer-items {
